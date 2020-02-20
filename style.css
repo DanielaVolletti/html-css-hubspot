@@ -12,8 +12,12 @@
   clear: both;
 }
 
-body{
+body {
   font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* intestazione */
@@ -32,9 +36,49 @@ header {
   padding: 40px 100px;
 }
 
-#selezione-lingua {
-  font-size: 20px;
+#selezione-lingua select , a {
+  font-size: 18px;
+  color: #33475B;
 }
+
+#selezione-lingua select {
+  background: none;
+  border: none;
+  border-right: 1px solid #7C98B6;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+#log {
+  float: right;
+  width: 30%;
+}
+
+#selezione-lingua {
+  float: left;
+  width: 30%;
+}
+
+#log :nth-child(2) {
+  background: white;
+  border: solid 1px #FF7A59;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin: 0 10px;
+  color: #FF7A59;
+}
+
+#log :nth-child(3) {
+  background: #FF7A59;
+  border: solid 1px #FF7A59;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin: 0 10px;
+  color: white;
+}
+
+
+
 
 #barra-navigazione {
   /* debug */
