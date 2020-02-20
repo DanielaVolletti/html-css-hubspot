@@ -11,6 +11,11 @@
   display: table;
   clear: both;
 }
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* intestazione */
 header {
   /* debug */
@@ -20,10 +25,15 @@ header {
 }
 
 #intestazione-fixed {
-  /* debug */
-  background-color: grey;
-  height: 50px;
-  /* end debug */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #F5F8FA;
+  padding: 40px 100px;
+}
+
+#selezione-lingua {
+  font-size: 20px;
 }
 
 #barra-navigazione {
