@@ -1,0 +1,44 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* intestazione */
+header {
+  /* debug */
+  background-color: yellow;
+  height: 100px;
+  /* end debug */
+}
+
+/* corpo centrale pagina */
+
+section {
+  /* debug */
+  background-color: purple;
+  border: solid 1px black;
+  height: 100px;
+  /* end debug */
+}
+
+/* sezione rosa */
+
+
+/* sezione grigia */
+
+/* sezione azzurra */
+
+/* sezione sponsor */
+
+/* fondo pagina */
+
+footer {
+  /* debug */
+  background-color: orange;
+  border: solid 1px black;
+  height: 200px;
+  /* end debug */
+}
