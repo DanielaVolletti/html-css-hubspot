@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* intestazione */
 header {
   /* debug */
@@ -14,31 +19,170 @@ header {
   /* end debug */
 }
 
+#intestazione-fixed {
+  /* debug */
+  background-color: grey;
+  height: 50px;
+  /* end debug */
+}
+
+#barra-navigazione {
+  /* debug */
+  background-color: black;
+  height: 50px;
+  /* end debug */
+}
+
 /* corpo centrale pagina */
 
-section {
+/* sezione rosa */
+#jumbotron {
+  height: 50px;
+  background-color: red;
+  margin-right: 60%;
+}
+
+
+/* sezione grigia */
+#cubo {
   /* debug */
   background-color: purple;
+  border: solid 1px black;
+  height: 300px;
+  /* end debug */
+}
+
+#libro {
+  /* debug */
+  background-color: white;
+  border: solid 1px black;
+  height: 300px;
+  /* end debug */
+}
+
+#features {
+  /* debug */
+  height: 300px;
+  width: 100%;
+  border: solid 1px black;
+  /* end debug */
+}
+
+.tre-colonne {
+  float: left;
+  width: 30%;
+  /* debug */
+  border: solid 1px black;
+  height: 300px;
+  /* end debug */
+}
+
+/* sezione azzurra */
+
+#dati {
+  /* debug */
+  background-color: yellow;
+  height: 100px;
+  border: solid 1px black;
+  /* end debug */
+}
+
+.rettangolo-quadrati {
+  /* debug */
+  background-color: orange;
+  width: 100%;
+  height: 100px;
+  /* end debug */
+}
+
+.quadratino {
+  float: left;
+  width: 20%;
+  /* debug */
   border: solid 1px black;
   height: 100px;
   /* end debug */
 }
 
-/* sezione rosa */
-
-
-/* sezione grigia */
-
-/* sezione azzurra */
-
 /* sezione sponsor */
+
+.diventa-cliente {
+  /* debug */
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  /* end debug */
+}
+
+
+#customers {
+  float: left;
+  width: 40%;
+  /* debug */
+  border: solid 1px black;
+  height: 100px;
+  /* end debug */
+}
+
+#sponsor {
+  float: left;
+  width: 50%;
+  /* debug */
+  border: solid 1px black;
+  height: 100px;
+  /* end debug */
+}
+
+#start-free {
+  float: left;
+  width: 50%;
+  /* debug */
+  border: solid 1px black;
+  height: 100px;
+  /* end debug */
+}
+
+#ragazza {
+  float: right;
+  width: 50%;
+  /* debug */
+  border: solid 1px black;
+  height: 100px;
+  /* end debug */
+}
 
 /* fondo pagina */
 
-footer {
+
+footer div {
   /* debug */
-  background-color: orange;
+  height: 100px;
+  width: 100%;
+  background-color: purple;
+  /* end debug */
+}
+
+.colonne-4 {
+  float: left;
+  width: 20%;
+  /* debug */
   border: solid 1px black;
-  height: 200px;
+  height: 100px;
+  /* end debug */
+}
+
+#lingue {
+  /* debug */
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+  /* end debug */
+}
+
+#copywrite {
+  /* debug */
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
   /* end debug */
 }
