@@ -107,21 +107,25 @@ a {
   line-height: 50px;
 }
 
-#barra-navigazione section {
+#barra-navigazione nav {
   float: right;
   width: 50%;
   height: 50px;
   line-height: 50px;
 }
 
-#barra-navigazione section a {
+#barra-navigazione nav ul li {
   display: inline-block;
   padding-right: 30px;
   font-weight: bold;
-  color: #524C5B;
   font-size: 18px;
   letter-spacing: 0.1em;
 }
+
+#barra-navigazione nav ul li a {
+    color: #524C5B;
+}
+
 /* corpo centrale pagina */
 
 /* sezione rosa */
