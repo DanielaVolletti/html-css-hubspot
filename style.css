@@ -204,6 +204,7 @@ a {
 #libro {
   background-color: white;
   padding: 50px;
+  margin-bottom: 20px;
 }
 
 #libro-note {
@@ -224,13 +225,13 @@ a {
   width: 200px;
 }
 
-#libro-note img {
+.img-piccole {
   height: 150px;
   width: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-#libro-note button {
+.bottone-arancio {
   display: block;
   background: #FF7A59;
   border: solid 1px #FF7A59;
@@ -240,52 +241,60 @@ a {
   left: 15%;
 }
 
-#container-img-button button a {
+.bottone-arancio a {
   color: white;
   font-weight: bold;
 }
 
-#spiegazione h4{
+.tit-par h4 {
   font-size: 20px;
 }
 
-#spiegazione p {
+.tit-par p {
   font-size: 13px;
   margin: 15px 0;
 }
 
-#popular-features h6 {
+.popular-features h6 {
   font-size: 13px;
   margin: 15px 0;
 }
 
-#popular-features ul li {
+.popular-features ul li {
   display: inline-block;
   font-size: 13px;
   margin-right: 10px;
 }
 
-#popular-features i {
+.popular-features i {
   color: #FF7A59;
   font-size: 16px;
 }
 
-#features {
-  /* debug */
-  height: 300px;
-  width: 100%;
-  border: solid 1px black;
-  /* end debug */
-}
+/* terzo blocco sezione 3 colonne */
+
+
 
 .tre-colonne {
   float: left;
   width: 30%;
-  /* debug */
-  border: solid 1px black;
-  height: 300px;
-  /* end debug */
+  color: #33475B;
+  line-height: 1.5;
+  background-color: white;
+  padding: 35px;
+  text-align: center;
 }
+
+.no-inline ul li {
+  display:block;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+#margine-col-centro {
+  margin: 0 5%;
+}
+
 
 /* sezione azzurra */
 
