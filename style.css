@@ -43,8 +43,8 @@ a {
 #selezione-lingua {
   float: left;
   width: 30%;
+  color: #33475B;
 }
-
 
 #selezione-lingua :nth-child(2) {
   padding: 0 20px;
@@ -164,13 +164,33 @@ a {
   font-weight: bold;
 }
 
+#jumbotron section {
+  font-size: 13px;
+  color: #33475B;
+}
+
 /* sezione grigia */
+
+#sezione-grigia {
+  background-color: #F5F8FA;
+}
+
 #cubo {
-  /* debug */
-  background-color: purple;
-  border: solid 1px black;
-  height: 300px;
-  /* end debug */
+  text-align: center;
+  padding: 100px 200px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  color: #33475B;
+}
+
+#cubo img {
+  height: 200px;
+  width: 200px;
+}
+
+#cubo h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 #libro {
