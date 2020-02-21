@@ -237,8 +237,7 @@ a {
   border: solid 1px #FF7A59;
   border-radius: 3px;
   padding: 15px 30px;
-  position: relative;
-  left: 15%;
+  margin-left: 25px;
 }
 
 .bottone-arancio a {
@@ -279,10 +278,15 @@ a {
   float: left;
   width: 30%;
   color: #33475B;
-  line-height: 1.5;
+  line-height: 2;
   background-color: white;
   padding: 35px;
   text-align: center;
+}
+
+.distanza-bott {
+  margin-left: 70px;
+  margin-top: 18px;
 }
 
 .no-inline ul li {
