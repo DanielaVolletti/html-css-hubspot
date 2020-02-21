@@ -60,26 +60,34 @@ a {
   width: 30%;
 }
 
-#log :nth-child(2) {
+#log a i {
+  color: #7C98B8;
+}
+
+#bottone-log {
   background: white;
   border: solid 1px #FF7A59;
   border-radius: 3px;
   padding: 15px 30px;
   margin-left: 20px;
-  color: #FF7A59;
 }
 
-#log :nth-child(3) {
+#bottone-get {
   background: #FF7A59;
   border: solid 1px #FF7A59;
   border-radius: 3px;
   padding: 15px 30px;
   margin: 0 10px;
-  color: white;
 }
 
-#log a {
-  color: #28B2C8;
+#bottone-get a {
+  color: white;
+  font-weight: bold;
+}
+
+#bottone-log a {
+  color: #FF7A59;
+  font-weight: bold;
 }
 
 /* parte intestazione non fissa */
@@ -89,34 +97,72 @@ a {
   height: 50px;
   line-height: 50px;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 #barra-navigazione img {
   float: left;
   width: 10%;
+  height: 50px;
+  line-height: 50px;
 }
 
 #barra-navigazione section {
   float: right;
   width: 50%;
+  height: 50px;
+  line-height: 50px;
 }
 
 #barra-navigazione section a {
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 30px;
   font-weight: bold;
   color: #524C5B;
   font-size: 18px;
+  letter-spacing: 0.1em;
 }
 /* corpo centrale pagina */
 
 /* sezione rosa */
-#jumbotron {
-  height: 50px;
-  background-color: red;
-  margin-right: 60%;
+#sezione-rosa {
+  background-image: url('img/jumbotron.png');
+  background-size: 100% 100%;
 }
 
+#jumbotron {
+  float: left;
+  width: 35%;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  letter-spacing: 1px;
+}
+
+#jumbotron h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  color: #33475B;
+  margin-bottom: 20px;
+}
+
+#jumbotron p {
+  line-height: 2.0;
+  color: #33475B;
+}
+
+#jumbotron button {
+  background: #FF7A59;
+  border: solid 1px #FF7A59;
+  border-radius: 3px;
+  padding: 25px 30px;
+  margin: 30px 0;
+}
+
+#jumbotron button a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
 
 /* sezione grigia */
 #cubo {
