@@ -295,15 +295,27 @@ a {
   margin: 0 5%;
 }
 
-
 /* sezione azzurra */
 
+#sezione-azzurra {
+  background-color: #00AEB3;
+}
+
 #dati {
-  /* debug */
-  background-color: yellow;
-  height: 100px;
-  border: solid 1px black;
-  /* end debug */
+  padding: 150px 300px 100px 300px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#dati h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#dati p {
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .rettangolo-quadrati {
