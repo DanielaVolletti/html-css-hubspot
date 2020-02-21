@@ -179,6 +179,8 @@ a {
   background-color: #F5F8FA;
 }
 
+/* primo blocco sezione cubo */
+
 #cubo {
   text-align: center;
   padding: 100px 200px;
@@ -197,12 +199,75 @@ a {
   margin-bottom: 20px;
 }
 
+/* secondo blocco sezione libro */
+
 #libro {
-  /* debug */
   background-color: white;
-  border: solid 1px black;
-  height: 300px;
-  /* end debug */
+  padding: 50px;
+}
+
+#libro-note {
+  float: left;
+  width: 30%;
+}
+
+#spiegazione {
+  float: left;
+  width: 60%;
+  letter-spacing: 1px;
+  color: #33475B;
+  line-height: 1.5;
+}
+
+#container-img-button {
+  height: 200px;
+  width: 200px;
+}
+
+#libro-note img {
+  height: 150px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+#libro-note button {
+  display: block;
+  background: #FF7A59;
+  border: solid 1px #FF7A59;
+  border-radius: 3px;
+  padding: 15px 30px;
+  position: relative;
+  left: 15%;
+}
+
+#container-img-button button a {
+  color: white;
+  font-weight: bold;
+}
+
+#spiegazione h4{
+  font-size: 20px;
+}
+
+#spiegazione p {
+  font-size: 13px;
+  margin: 15px 0;
+}
+
+#popular-features h6 {
+  font-size: 13px;
+  margin: 15px 0;
+}
+
+#popular-features ul li {
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+#popular-features i {
+  color: #FF7A59;
+  font-size: 16px;
 }
 
 #features {
