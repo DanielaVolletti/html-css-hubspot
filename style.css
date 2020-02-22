@@ -220,10 +220,6 @@ a {
   line-height: 1.5;
 }
 
-#container-img-button {
-  height: 200px;
-  width: 200px;
-}
 
 .img-piccole {
   height: 150px;
@@ -237,6 +233,7 @@ a {
   border: solid 1px #FF7A59;
   border-radius: 3px;
   padding: 15px 30px;
+  margin-left: 10%;
 }
 
 .bottone-arancio a {
@@ -366,31 +363,79 @@ a {
 
 /* sezione sponsor */
 
-.diventa-cliente {
-  /* debug */
+#container-sponsor {
   width: 100%;
-  height: 100px;
-  background-color: blue;
-  /* end debug */
+  padding: 100px 0px;
 }
-
 
 #customers {
   float: left;
-  width: 40%;
-  /* debug */
-  border: solid 1px black;
-  height: 100px;
-  /* end debug */
+  width: 30%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #33475B;
+}
+
+#customers h3 {
+  font-size: 50px;
+}
+
+#customers p {
+  font-size: 20px;
+}
+
+#customers p span {
+  font-weight: bold;
 }
 
 #sponsor {
-  float: left;
+  float: right;
   width: 50%;
-  /* debug */
-  border: solid 1px black;
-  height: 100px;
-  /* end debug */
+  padding-top: 20px;
+}
+
+#sponsor img {
+  margin: 0 30px 40px 0;
+}
+
+#atlassian {
+  height: 14px;
+  width: 110px;
+}
+
+#doordash {
+  height: 13px;
+  width: 110px;
+}
+
+#crowd {
+  height: 30px;
+  width: 110px;
+}
+
+#purple {
+  height: 35px;
+  width: 110px;
+}
+
+#subaru {
+  height: 37px;
+  width: 110px;
+}
+
+#wistia {
+  height: 18px;
+  width: 110px;
+}
+
+#classpass {
+  height: 44px;
+  width: 110px;
+}
+
+#vmware {
+  height: 24px;
+  width: 110px;
 }
 
 #start-free {
