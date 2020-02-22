@@ -362,10 +362,13 @@ a {
 }
 
 /* sezione sponsor */
+#sezione-sponsor-margine {
+  padding-top: 50px;
+}
 
-#container-sponsor {
+.container-sponsor-ragazza {
   width: 100%;
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
 
 #customers {
@@ -438,22 +441,41 @@ a {
   width: 110px;
 }
 
+#sezione-ragazza {
+  padding-bottom: 100px;
+}
+
 #start-free {
   float: left;
   width: 50%;
-  /* debug */
-  border: solid 1px black;
-  height: 100px;
-  /* end debug */
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #33475B;
+}
+
+#start-free h3 {
+  font-size: 30px;
+}
+
+#start-free p {
+  font-size: 15px;
+  padding: 20px 0;
+}
+
+#start-free .bottone-arancio {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+#start-free div {
+  font-size: 12px;
 }
 
 #ragazza {
   float: right;
   width: 50%;
-  /* debug */
-  border: solid 1px black;
-  height: 100px;
-  /* end debug */
+  height: 430px;
+  width: 350px;
 }
 
 /* fondo pagina */
