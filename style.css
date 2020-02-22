@@ -237,7 +237,6 @@ a {
   border: solid 1px #FF7A59;
   border-radius: 3px;
   padding: 15px 30px;
-  margin-left: 25px;
 }
 
 .bottone-arancio a {
@@ -272,8 +271,6 @@ a {
 
 /* terzo blocco sezione 3 colonne */
 
-
-
 .tre-colonne {
   float: left;
   width: 30%;
@@ -282,7 +279,10 @@ a {
   background-color: white;
   padding: 35px;
   text-align: center;
+  margin-bottom: 20px;
+  min-height: 648px;
 }
+
 
 .distanza-bott {
   margin-left: 70px;
@@ -322,21 +322,38 @@ a {
   line-height: 1.5;
 }
 
+/* blocco con quadrati */
+
 .rettangolo-quadrati {
-  /* debug */
-  background-color: orange;
   width: 100%;
-  height: 100px;
-  /* end debug */
+  border-bottom: solid 1px white;
 }
 
 .quadratino {
   float: left;
-  width: 20%;
-  /* debug */
-  border: solid 1px black;
-  height: 100px;
-  /* end debug */
+  width: 25%;
+  padding: 50px;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.bordo-destro-quad {
+  border-right: solid 1px white;
+}
+
+.quadratino h4 {
+  font-size: 50px;
+}
+
+.quadratino h4 i {
+  font-size: 20px;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+.quadratino p {
+  font-weight: 600;
 }
 
 /* sezione sponsor */
