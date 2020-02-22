@@ -35,8 +35,6 @@ a {
   background-color: #F5F8FA;
   padding-top: 20px;
   padding-bottom: 20px;
-  height: 50px;
-  line-height: 50px;
   border-bottom: solid 1px #7C98B8;
 }
 
@@ -44,6 +42,8 @@ a {
   float: left;
   width: 30%;
   color: #33475B;
+  height: 50px;
+  line-height: 50px;
 }
 
 #selezione-lingua :nth-child(2) {
@@ -62,32 +62,34 @@ a {
 
 #log a i {
   color: #7C98B8;
+  padding-right: 20px;
 }
 
 #bottone-log {
   background: white;
   border: solid 1px #FF7A59;
   border-radius: 3px;
-  padding: 15px 30px;
-  margin-left: 20px;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 14px;
+  margin-right: 5px;
 }
 
 #bottone-get {
   background: #FF7A59;
   border: solid 1px #FF7A59;
   border-radius: 3px;
-  padding: 15px 30px;
-  margin: 0 10px;
+  padding: 10px 25px;
+  display: inline-block;
+  font-size: 14px;
 }
 
 #bottone-get a {
   color: white;
-  font-weight: bold;
 }
 
 #bottone-log a {
   color: #FF7A59;
-  font-weight: bold;
 }
 
 /* parte intestazione non fissa */
@@ -154,21 +156,21 @@ a {
   color: #33475B;
 }
 
-#jumbotron button {
+#bottone-free {
   background: #FF7A59;
   border: solid 1px #FF7A59;
   border-radius: 3px;
-  padding: 25px 30px;
-  margin: 30px 0;
+  padding: 25px 17px;
+  margin: 30px 200px 30px 0;
 }
 
-#jumbotron button a {
+#bottone-free a {
   color: white;
   font-size: 18px;
   font-weight: bold;
 }
 
-#jumbotron section {
+#spiegazione-sotto-bott {
   font-size: 13px;
   color: #33475B;
 }
@@ -227,18 +229,18 @@ a {
   margin-bottom: 30px;
 }
 
-.bottone-arancio {
-  display: block;
+#bottone-arancio {
   background: #FF7A59;
   border: solid 1px #FF7A59;
   border-radius: 3px;
-  padding: 15px 30px;
-  margin-left: 10%;
+  padding: 16px 30px;
+  margin: 0px 138px 0px 23px;
 }
 
-.bottone-arancio a {
+#bottone-arancio a {
   color: white;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .tit-par h4 {
@@ -277,13 +279,25 @@ a {
   padding: 35px;
   text-align: center;
   margin-bottom: 20px;
-  min-height: 648px;
 }
 
+.bottone-arancio-colonne {
+  background: #FF7A59;
+  border: solid 1px #FF7A59;
+  border-radius: 3px;
+  padding: 10px 25px;
+  margin: 20px 70px 0px 47px;
+}
 
-.distanza-bott {
-  margin-left: 70px;
-  margin-top: 18px;
+.bottone-arancio-colonne a {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tre-colonne p {
+  min-height: 104px;
+  border-bottom: solid 1px #F5F8FA;
 }
 
 .no-inline ul li {
@@ -325,12 +339,12 @@ a {
   padding-bottom: 100px;
 }
 
-.rettangolo-quadrati-1 {
+#rettangolo-quadrati-1 {
   width: 100%;
   border-bottom: solid 1px white;
 }
 
-.rettangolo-quadrati-2 {
+#rettangolo-quadrati-2 {
   width: 100%;
 }
 
@@ -368,7 +382,7 @@ a {
 
 .container-sponsor-ragazza {
   width: 100%;
-  padding: 50px 0px;
+  padding: 70px 0px;
 }
 
 #customers {
@@ -462,9 +476,18 @@ a {
   padding: 20px 0;
 }
 
-#start-free .bottone-arancio {
-  margin-left: 0;
-  margin-bottom: 20px;
+#bottone-arancio-ragazza {
+  background: #FF7A59;
+  border: solid 1px #FF7A59;
+  border-radius: 3px;
+  padding: 10px 25px;
+  margin: 20px 392px 35px 0px;
+}
+
+#bottone-arancio-ragazza a {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 #start-free div {
