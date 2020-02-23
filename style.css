@@ -96,10 +96,8 @@ a {
 #barra-navigazione {
   margin-top: 91px;
   width: 100%;
-  height: 50px;
-  line-height: 50px;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 #barra-navigazione img {
@@ -286,7 +284,7 @@ a {
   border: solid 1px #FF7A59;
   border-radius: 3px;
   padding: 10px 25px;
-  margin: 20px 70px 0px 47px;
+  margin: 20px 60px 0px 60px;
 }
 
 .bottone-arancio-colonne a {
@@ -503,36 +501,118 @@ a {
 
 /* fondo pagina */
 
+footer {
+  background-color: #33475B;
+}
 
-footer div {
-  /* debug */
-  height: 100px;
+.ampiezza-footer {
   width: 100%;
-  background-color: purple;
-  /* end debug */
+  padding-top: 100px;
 }
 
 .colonne-4 {
   float: left;
-  width: 20%;
-  /* debug */
-  border: solid 1px black;
-  height: 100px;
-  /* end debug */
+  width: 25%;
+  color: white;
+  line-height: 2;
+}
+
+.colonne-4 h5 {
+  font-size: 18px;
+}
+
+.colonne-4 ul li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+.colonne-4 ul li a {
+  color: #CBD6E2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#menu-free-tools {
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#contact-support {
+  background-color: white;
+  padding: 10px 12px;
+  margin-right: 93px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+#contact-support a {
+  color: #33475B;
+  font-weight: normal;
+}
+
+#icone-social {
+  margin-top: 20px;
+}
+
+#icone-social ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#icone-social ul li a {
+  font-size: 22px;
 }
 
 #lingue {
-  /* debug */
-  height: 100px;
+  text-align: center;
+  padding: 20px 0 50px 0;
+  border-bottom: solid 1px #7C98B6;
+}
+
+#lingue ul li{
+  display: inline-block;
+}
+
+#lingue ul li a{
+  color: #CBD6E2;
+  padding-right: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#blocco-pie-pagina {
   width: 100%;
-  background-color: blue;
-  /* end debug */
+  padding: 50px 0;
 }
 
 #copywrite {
-  /* debug */
-  height: 100px;
-  width: 100%;
-  background-color: yellow;
-  /* end debug */
+  float: left;
+  width: 25%;
+}
+
+
+#copywrite p {
+  color: #CBD6E2;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+#privacy {
+  float: right;
+  width: 25%;
+  height: 50px;
+  line-height: 50px;
+}
+
+#privacy ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 37px;
+}
+
+#privacy ul li a {
+  color: #CBD6E2;
+  font-weight: bold;
+  font-size: 18px;
 }
