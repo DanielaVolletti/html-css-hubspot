@@ -147,21 +147,85 @@ a {
 
 #barra-navigazione nav {
   float: right;
-  width: 50%;
+  width: 60%;
   height: 50px;
   line-height: 50px;
 }
 
 #barra-navigazione nav ul li {
-  display: inline-block;
-  padding-right: 30px;
+  float: left;
+  width: 20%;
+  list-style-type: none;
+  padding-right: 20px;
   font-weight: bold;
   font-size: 18px;
-  letter-spacing: 0.1em;
+  letter-spacing: 1px;
 }
 
 #barra-navigazione nav ul li a {
   color: #524C5B;
+}
+
+#container-software {
+  display: none;
+}
+
+#container-software {
+  width: 780px;
+  background-color: white;
+  border: solid 1px #7C98B6;
+  border-radius: 3px;
+  text-align: center;
+  padding: 30px;
+  line-height: 2;
+}
+
+#container-software h6 {
+  font-size: 20px;
+}
+
+#container-software p {
+  font-size: 12px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+#container-software p span{
+  font-weight: bold;
+}
+
+.container-tendine:hover #container-software {
+  display: block;
+}
+
+#container-tre-col {
+  padding: 20px 0;
+  border-bottom: solid 1px #7C98B6;
+  border-top: solid 1px #7C98B6;
+}
+
+#container-tre-col a {
+  float: left;
+  width: 30%;
+}
+
+#container-tre-col a:nth-child(2) {
+  margin: 0 5%;
+}
+
+#fondo-software {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#fondo-software a h6 {
+  font-size: 20px;
+  display: inline-block;
+}
+
+#fondo-software  a span {
+  font-size: 13px;
+  font-weight: normal;
 }
 
 /* corpo centrale pagina */
@@ -599,8 +663,25 @@ footer {
 
 #menu-free-tools {
   color: white;
+  background: none;
+  border: none;
+  padding: 15px 0px;
   font-weight: normal;
   font-size: 15px;
+  text-align: left;
+}
+
+#contenuto-bottone a {
+  display: block;
+  padding-bottom: 20px;
+}
+
+#contenuto-bottone {
+  display: none;
+}
+
+#bottone:hover #contenuto-bottone {
+  display: block;
 }
 
 #contact-support {
