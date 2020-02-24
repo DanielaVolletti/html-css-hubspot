@@ -13,18 +13,25 @@
     <header>
       <div id="intestazione-fixed" class="clearfix centratura">
         <section id="selezione-lingua">
-          <i class="fas fa-globe-europe"></i>
-          <a href="#">English</a>
-          <a href="#">Contact sales</a>
+          <div class="menu-lingue">
+            <i class="fas fa-globe-europe"></i>
+            <a href="#">English</a>
+              <ul>
+                <li><a href="#">日本語</a></li>
+                <li><a href="#">Deutsch</a></li>
+                <li><a href="#">Español</a></li>
+                <li><a href="#">Português</a></li>
+                <li><a href="#">Français</a></li>
+              </ul>
+          </div>
+          <div id="contatti">
+            <a href="#">Contact sales</a>
+          </div>
         </section>
         <section id="log">
           <a href="#"><i class="fas fa-search"></i></a>
-          <div id="bottone-log">
-            <a href="#">Log in</a>
-          </div>
-          <div id="bottone-get">
-            <a href="#">Get HubSpot free</a>
-          </div>
+          <a id="bottone-log" href="#">Log in</a>          
+          <a id="bottone-get" href="#">Get HubSpot free</a>
         </section>
       </div>
       <div id="barra-navigazione" class="clearfix centratura">
@@ -93,7 +100,8 @@
               <p>Everything you need to organize, track, and build better relationships with leads and customers. Yes, it's 100% free. Forever.</p>
             </div>
             <div class="popular-features">
-              <h6>POPULAR FEATURES</h6>
+              <h6 id="pop-inline" >POPULAR FEATURES</h6>
+              <hr>
               <ul>
                 <li> <i class="fas fa-check-square"></i> Contact Insights</li>
                 <li> <i class="fas fa-check-square"></i> Deals</li>
