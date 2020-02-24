@@ -48,12 +48,12 @@ a {
   line-height: 50px;
 }
 
-.menu-lingue {
+#menu-lingue {
   float: left;
-  width: 33%;
+  width: 50%;
 }
 
-.menu-lingue ul {
+#menu-lingue ul {
   display: none;
   list-style-type: none;
   padding: 20px;
@@ -62,20 +62,20 @@ a {
   border-radius: 3px;
 }
 
-.menu-lingue:hover ul{
+#menu-lingue:hover ul{
   display: block;
 }
 
-.menu-lingue a {
+#menu-lingue a {
   color: #524C5B;
 }
 
-.menu-lingue ul li a {
+#menu-lingue ul li a {
   font-weight: bold;
 }
 
-.menu-lingue i {
-  padding-right: 20px;
+#menu-lingue i {
+  padding: 0 15px;
 }
 
 #contatti {
