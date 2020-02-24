@@ -467,6 +467,10 @@ a {
   padding-top: 20px;
 }
 
+#sponsor div img {
+  vertical-align: middle;
+}
+
 #sponsor img {
   margin: 0 30px 40px 0;
 }
