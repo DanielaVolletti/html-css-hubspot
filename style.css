@@ -171,13 +171,15 @@ a {
 }
 
 #container-software {
-  width: 780px;
+  width: 900px;
   background-color: white;
   border: solid 1px #7C98B6;
   border-radius: 3px;
   text-align: center;
   padding: 30px;
   line-height: 2;
+  position: relative;
+  right: 270px;
 }
 
 #container-software h6 {
@@ -213,8 +215,14 @@ a {
   margin: 0 5%;
 }
 
+#new {
+  background-color: #00BDA5;
+  padding: 5px 10px;
+  color: white;
+  margin-left: 20px;
+}
+
 #fondo-software {
-  text-align: center;
   padding-top: 20px;
 }
 
