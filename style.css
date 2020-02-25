@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -36,7 +36,6 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: solid 1px #7C98B8;
-  height: 50px;
   line-height: 50px;
 }
 
@@ -44,8 +43,6 @@ a {
   float: left;
   width: 30%;
   color: #33475B;
-  height: 50px;
-  line-height: 50px;
 }
 
 #menu-lingue {
@@ -79,7 +76,8 @@ a {
 }
 
 #contatti {
-  display: inline-block;
+  float: left;
+  width: 50%;
   border-left: solid 1px #7C98B6;
   padding-left: 20px;
 }
